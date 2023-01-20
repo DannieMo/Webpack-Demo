@@ -1,0 +1,33 @@
+{
+  "name": "Webpack-demo",
+  "version": "1.0.0",
+  "description": "A Microverse exercise. In this exercise, I will build a simple yet powerful webpack boilerplate, which I can later use as a starting point in my projects.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannieMo/Webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DannieMo/Webpack-demo/issues"
+  },
+  "homepage": "https://github.com/DannieMo/Webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
